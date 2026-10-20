@@ -1,0 +1,27 @@
+*{
+    ---primary-color:green;
+    ---secondary-color:white;
+    ---tertiary-color:grey;
+    ---text-blue:purple;
+    ---white-black:yellow;
+}
+.header-one{
+    height: 50px;
+    width: 50px;
+    background-color: var(---secondary-color);
+    color: green;
+    right: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+.jpg{
+    height: 20px;
+    width: 20px;
+    background-size: cover;
+    right: 10px;
+}
+.presidents{
+    height: 10px;
+    width: 10px;
+    background-size: cover;
+}

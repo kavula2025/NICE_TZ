@@ -1,0 +1,134 @@
+*{
+    --primary-color:rgb(8, 97, 8);
+    --border-radius:99px;
+    --secondary-color:white;
+    --tertiary-color:green;
+    --light-color:whitesmoke;
+    --text-blue:rgb(12, 12, 56);
+    --white-black: rgba(83, 81, 81, 0.788);
+}
+header{
+    height: 80px;
+    width: 100%;
+    background-color: var(--secondary-color);
+    align-items: center;
+    display: flex;
+}
+.header-logo img{
+    height: 80px;
+}
+.header-navigation #menu{
+    list-style: none;
+    display: flex;
+}
+.header-navigation #menu li a{
+    padding: 10px;
+    margin: 10px;
+    color: var(--text-blue);
+    text-decoration:none;
+}
+.header-button{
+    margin-left: 290px;
+}
+.header-button .support{
+    border-radius: var(--border-radius);
+    background-color: var(--tertiary-color);
+    color: var(--secondary-color);
+    height: 45px;
+    width: 100px;
+    border: none;
+}
+.main-content{
+    background-image: url(nice_slide_1.jpg);
+    width: 100%;
+    height: 500px;
+    text-align: center;
+    color: var(--secondary-color);
+}
+.header-one{
+    color: var(--light-color);
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    font-size: 25px;
+}
+.para{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 70px;
+    color: var(--secondary-color);
+}
+.view{
+    color: var(--secondary-color);
+    background-color: var(--text-blue);
+    border: none;
+    border-radius: var(--border-radius);
+    width: 100px;
+    height: 45px;
+    cursor: pointer;
+}
+.header-contact{
+    color: var(--secondary-color);
+    background-image: url(nice_slide_1.jpg);
+    height: 300px;
+    padding-left: 100px;
+    padding-top: 45px;
+}
+.project .p1{
+    color: var(--text-blue);
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 30px;
+    font-weight: 1000;
+}
+.project .p2{
+    color: var(--white-black);
+    font-weight: 100;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    font-size: medium;
+}
+.submit button{
+    border-radius: var(--border-radius);
+    background-color: var(--tertiary-color);
+}
+.header-icon{
+    height: 40px;
+    position: absolute;
+    right: 30px;
+    top: 20px;
+    gap:10x;
+}
+.header-icon img{
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+}
+form input,form textarea{
+    width: 550px;
+    height: 60px;
+    font-size: 22px;
+    padding: 10px;
+    box-sizing: border-box;
+    border-color: blue;
+
+}
+.message{
+    border-radius: var(--border-radius);
+    background-color: var(--tertiary-color);
+    color: var(--secondary-color);
+    height: 45px;
+    width: 150px;
+    border: none;
+    position: absolute;
+    left: 600px;
+}
+.header-navigation:hover li a{
+    text-decoration-line: none;
+    background-color: green;
+    border-radius: 100px;
+}
+.header-navigation:hover li a{
+    text-decoration-color: white;
+}
+
+
+
+

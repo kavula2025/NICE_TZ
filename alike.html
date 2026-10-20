@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pop.tz</title>
+    <!-- <link href="styles.css" rel="stylesheet"> -->
+     <style>
+    .header-navigation #menu li a{
+    list-style: none;
+    display: flex;
+    padding: 10px;
+    margin: 10px;
+    color: red;
+    text-decoration: none;
+    /* align-items: center; */
+    }
+     .header-navigation #menu{
+        list-style: none;
+        display: flex;
+    }
+    .header-icon img{
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    object-fit: contain;
+    }
+    .fav{
+        border-color: blue;
+        border-radius: 100px;
+        color: red;
+        position: absolute;
+        right: 600px;
+        background-color: black;
+    }
+    .main-content{
+        background-image: url(birthday.jpeg);
+        width: 100%; 
+         height: 450px;
+        text-align: center;
+        color: palevioletred;
+        /* size-adjust: var(100px); */
+        padding: 10px;
+        
+    }
+    .header-one{
+        font-style: oblique;
+        font-size: larger;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        color: palevioletred;
+    }
+    .header-navigation:hover li a{
+        text-decoration: none;
+        background-color: greenyellow;
+        border-radius: 100px;
+        /* text-decoration: white; */
+    }
+    .header-navigation:hover li a{
+        text-decoration: wheat;
+    }
+</style>
+</head>
+<body>
+    <header>
+            <div class="header-icon">
+        <img src="biosphere.jpg" height="100px">
+        <div class="header-logo">
+            <!-- <img src="birthday.jpeg" > -->
+        </div>
+    </div>
+    <div class="header-navigation">
+        <ul id="menu">
+            <li><a href="#">Family</a></li>
+            <li><a href="#">Partners</a></li>
+            <li><a href="#">Favorites</a></li>
+            <li><a href="#">Guests</a></li>
+            <li><a href="#">Send-off</a></li>
+            <li><a href="#">Kitchen-party</a></li>
+            <li><a href="#">Celebration</a></li>
+            <li><a href="joy.html">Joy</a></li>
+        </ul>
+    </div>
+    <div class="header-button">
+        <button class="fav">Favorites</button>
+    </div>
+    </header> 
+    <div class="main-content">
+        <p class="header-one"> The birthday boy is full of Joy<br>
+            happiness, together with consinstency;
+
+            <br>see him when he sees you all !! Amen.
+        </p>
+    </div>
+</body>
+</html>
